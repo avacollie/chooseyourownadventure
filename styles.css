@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: lavender;
+    
+}
+.header-links {
+    display: flex;
+ justify-content: space-between;
+}
+.header-links, .links{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    list-style-type: none;
+    text-decoration: none;
+    color: red;
+    justify-content: space-between;
+    align-items: center;
+   border: 1px solid black;
+
+}
+
+a {
+    margin: 12.5px;
+}
+
+.button {
+    flex-direction: row;
+    align-content: center;
+    align-self: center;
+    border: solid purple;
+}
