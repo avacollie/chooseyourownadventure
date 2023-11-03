@@ -7,24 +7,30 @@ body {
 .header-links {
     display: flex;
  justify-content: space-between;
+
 }
 .header-links, .links{
     display: flex;
+    font-weight: ;
     flex-direction: row;
     margin: 20px;
     padding-left: 5px;
     padding-right: 5px;
     list-style-type: none;
     text-decoration: none;
-    color: red;
+    color: black;
     justify-content: space-between;
     align-items: center;
    border: 1px solid black;
+   font-weight: bold;
+   font-size: 25px;
+   flex-grow: 0;
 
 }
 
 a {
-    margin: 12.5px;
+    margin:55px;
+    text-decoration: none;
 }
 
 .button {
